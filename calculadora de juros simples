@@ -1,0 +1,6 @@
+print(" Ola, bem vindo a sua calculadora de juros simples")
+m= float(input("digite seu montante"))
+c= float (input("digite sua capital"))
+t = float(input(" digite seu tempo"))
+taxa = (m-c) / (c*t)
+print(taxa, "a.m.")
